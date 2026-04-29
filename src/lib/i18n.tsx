@@ -10,7 +10,7 @@ export const translations = {
     index: {
       kicker: "Portfolio · 2026",
       hi: "Hi, I'm Luca.",
-      tagline1: "Student, problem solver,",
+      tagline1: "Curious, creative,",
       tagline2: "hackathon enthusiast.",
       intro:
         "I'm studying Electronic Engineering at the University of Udine. I love tackling messy problems with small teams, whether that means a 24-hour hackathon pitch, organising live events, contributing to Enactus at my university, or learning a new language abroad.",
