@@ -57,7 +57,7 @@ const work = [
   {
     company: "Centro Estate Viva",
     role: "Outdoor Activities Animator",
-    period: "Jun — Jul 2022",
+    period: "Jun to Jul 2022",
     location: "Cordenons, Italy",
     bullets: [
       "Maintenance and setup work",
