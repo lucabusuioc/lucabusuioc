@@ -46,7 +46,7 @@ const work = [
   {
     company: "Pordenonelegge",
     role: "Venue Supervisor",
-    period: "Sep 2023 — Sep 2025",
+    period: "Sep 2023 to Sep 2025",
     location: "Pordenone, Italy",
     bullets: [
       "Welcomed and assisted attendees during festival events",
