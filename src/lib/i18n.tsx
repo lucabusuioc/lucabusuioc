@@ -10,7 +10,7 @@ export const translations = {
     index: {
       kicker: "Portfolio · 2026",
       hi: "Hi, I'm Luca.",
-      tagline1: "Student, problem solver,",
+      tagline1: "Curious, creative,",
       tagline2: "hackathon enthusiast.",
       intro:
         "I'm studying Electronic Engineering at the University of Udine. I love tackling messy problems with small teams, whether that means a 24-hour hackathon pitch, organising live events, contributing to Enactus at my university, or learning a new language abroad.",
@@ -184,7 +184,7 @@ export const translations = {
     index: {
       kicker: "Portfolio · 2026",
       hi: "Ciao, sono Luca.",
-      tagline1: "Studente, problem solver,",
+      tagline1: "Curioso, creativo,",
       tagline2: "appassionato di hackathon.",
       intro:
         "Studio Ingegneria Elettronica all'Università di Udine. Mi piace affrontare problemi complessi in piccoli team, che si tratti di un pitch da hackathon di 24 ore, dell'organizzazione di eventi dal vivo, della partecipazione a Enactus in università o dell'apprendimento di una nuova lingua all'estero.",
