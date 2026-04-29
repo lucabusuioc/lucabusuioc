@@ -35,7 +35,7 @@ const work = [
   {
     company: "TEDxPordenone",
     role: "Team Member",
-    period: "Apr 2025 — Present",
+    period: "Apr 2025 to Present",
     location: "Pordenone, Italy",
     bullets: [
       "Supervise pre-event and on-site activities",
