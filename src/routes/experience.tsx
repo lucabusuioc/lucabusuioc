@@ -22,8 +22,6 @@ export const Route = createFileRoute("/experience")({
 
 const work = [
   {
-const work = [
-  {
     company: "Enactus — University of Udine",
     role: "Member",
     period: "2025 — Present",
