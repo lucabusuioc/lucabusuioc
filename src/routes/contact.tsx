@@ -42,7 +42,7 @@ function ContactPage() {
         <h1 className="text-4xl sm:text-5xl text-foreground">Let's get in touch</h1>
         <p className="mt-4 text-muted-foreground">
           The fastest way to reach me is by email. I'm open to internships, hackathon teams,
-          and event collaborations — especially during my Erasmus in Antwerp.
+          and event collaborations, especially during my Erasmus in Antwerp.
         </p>
       </header>
 
