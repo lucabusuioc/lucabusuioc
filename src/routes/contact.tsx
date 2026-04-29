@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { useI18n } from "@/lib/i18n";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
@@ -19,31 +20,15 @@ export const Route = createFileRoute("/contact")({
   component: ContactPage,
 });
 
-const languages = [
-  { name: "Italian", level: "Native" },
-  { name: "Romanian", level: "Native" },
-  { name: "English", level: "B2 in Listening, Reading, Writing & Speaking" },
-];
-
-const skills = [
-  "C programming",
-  "AI tools",
-  "Microsoft Office (Word, Excel, PowerPoint)",
-  "Email & productivity workflows",
-  "PDF & document management",
-  "Social platforms & communication",
-];
-
 function ContactPage() {
+  const { t } = useI18n();
+  const c = t.contact;
   return (
     <div className="mx-auto max-w-4xl px-6 pt-16 sm:pt-20 pb-12">
       <header className="mb-16 max-w-2xl">
-        <p className="text-sm uppercase tracking-[0.2em] text-accent mb-4">Contact</p>
-        <h1 className="text-4xl sm:text-5xl text-foreground">Let's get in touch</h1>
-        <p className="mt-4 text-muted-foreground">
-          The fastest way to reach me is by email. I'm open to internships, hackathon teams,
-          and event collaborations, especially during my Erasmus in Antwerp.
-        </p>
+        <p className="text-sm uppercase tracking-[0.2em] text-accent mb-4">{c.kicker}</p>
+        <h1 className="text-4xl sm:text-5xl text-foreground">{c.title}</h1>
+        <p className="mt-4 text-muted-foreground">{c.intro}</p>
       </header>
 
       <section className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
@@ -51,31 +36,31 @@ function ContactPage() {
           href="mailto:lucabusuio2006@gmail.com"
           className="group border border-border rounded-xl p-7 bg-card hover:border-accent transition-colors"
         >
-          <p className="text-xs uppercase tracking-wider text-muted-foreground">Personal email</p>
+          <p className="text-xs uppercase tracking-wider text-muted-foreground">{c.personalEmail}</p>
           <p className="mt-2 text-lg text-foreground group-hover:text-accent transition-colors break-all">
             lucabusuio2006@gmail.com
           </p>
-          <p className="mt-1 text-sm text-muted-foreground">Best for general contact</p>
+          <p className="mt-1 text-sm text-muted-foreground">{c.personalEmailHint}</p>
         </a>
         <a
           href="mailto:busuioc.luca@spes.uniud.it"
           className="group border border-border rounded-xl p-7 bg-card hover:border-accent transition-colors"
         >
-          <p className="text-xs uppercase tracking-wider text-muted-foreground">University email</p>
+          <p className="text-xs uppercase tracking-wider text-muted-foreground">{c.uniEmail}</p>
           <p className="mt-2 text-lg text-foreground group-hover:text-accent transition-colors break-all">
             busuioc.luca@spes.uniud.it
           </p>
-          <p className="mt-1 text-sm text-muted-foreground">University of Udine</p>
+          <p className="mt-1 text-sm text-muted-foreground">{c.uniEmailHint}</p>
         </a>
         <a
           href="tel:+393703274074"
           className="group border border-border rounded-xl p-7 bg-card hover:border-accent transition-colors md:col-span-2"
         >
-          <p className="text-xs uppercase tracking-wider text-muted-foreground">Phone</p>
+          <p className="text-xs uppercase tracking-wider text-muted-foreground">{c.phone}</p>
           <p className="mt-2 text-lg text-foreground group-hover:text-accent transition-colors">
             +39 370 327 4074
           </p>
-          <p className="mt-1 text-sm text-muted-foreground">Cordenons (PN), Italy</p>
+          <p className="mt-1 text-sm text-muted-foreground">{c.phoneHint}</p>
         </a>
       </section>
 
@@ -86,11 +71,11 @@ function ContactPage() {
           rel="noopener noreferrer"
           className="group border border-border rounded-xl p-7 bg-card hover:border-accent transition-colors"
         >
-          <p className="text-xs uppercase tracking-wider text-muted-foreground">LinkedIn</p>
+          <p className="text-xs uppercase tracking-wider text-muted-foreground">{c.linkedin}</p>
           <p className="mt-2 text-lg text-foreground group-hover:text-accent transition-colors">
             Luca Busuioc
           </p>
-          <p className="mt-1 text-sm text-muted-foreground">Professional network</p>
+          <p className="mt-1 text-sm text-muted-foreground">{c.linkedinHint}</p>
         </a>
         <a
           href="https://www.instagram.com/lucabusuioc"
@@ -98,19 +83,19 @@ function ContactPage() {
           rel="noopener noreferrer"
           className="group border border-border rounded-xl p-7 bg-card hover:border-accent transition-colors"
         >
-          <p className="text-xs uppercase tracking-wider text-muted-foreground">Instagram</p>
+          <p className="text-xs uppercase tracking-wider text-muted-foreground">{c.instagram}</p>
           <p className="mt-2 text-lg text-foreground group-hover:text-accent transition-colors break-all">
             @lucabusuioc
           </p>
-          <p className="mt-1 text-sm text-muted-foreground">Personal</p>
+          <p className="mt-1 text-sm text-muted-foreground">{c.instagramHint}</p>
         </a>
       </section>
 
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-12 border-t border-border pt-12">
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-12 border-t border-border pt-12 mt-16">
         <div>
-          <h2 className="text-2xl text-foreground mb-6">Languages</h2>
+          <h2 className="text-2xl text-foreground mb-6">{c.languagesTitle}</h2>
           <ul className="space-y-4">
-            {languages.map((l) => (
+            {c.languages.map((l) => (
               <li key={l.name} className="flex items-baseline justify-between gap-4 border-b border-border pb-3">
                 <span className="text-foreground">{l.name}</span>
                 <span className="text-sm text-muted-foreground text-right">{l.level}</span>
@@ -119,9 +104,9 @@ function ContactPage() {
           </ul>
         </div>
         <div>
-          <h2 className="text-2xl text-foreground mb-6">Skills</h2>
+          <h2 className="text-2xl text-foreground mb-6">{c.skillsTitle}</h2>
           <ul className="flex flex-wrap gap-2">
-            {skills.map((s) => (
+            {c.skills.map((s) => (
               <li
                 key={s}
                 className="border border-border rounded-full px-4 py-2 text-sm text-muted-foreground bg-card"
