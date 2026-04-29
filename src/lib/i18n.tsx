@@ -161,6 +161,7 @@ export const translations = {
       linkedinHint: "Professional network",
       instagram: "Instagram",
       instagramHint: "Personal",
+      downloadCv: "Download my CV",
       languagesTitle: "Languages",
       skillsTitle: "Skills",
       languages: [
