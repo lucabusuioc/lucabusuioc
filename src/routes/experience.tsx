@@ -123,7 +123,7 @@ function ExperiencePage() {
               Upcoming
             </span>
             <div className="flex flex-wrap items-baseline justify-between gap-2">
-              <h3 className="text-xl text-foreground">University of Antwerp — Erasmus Exchange</h3>
+              <h3 className="text-xl text-foreground">University of Antwerp, Erasmus Exchange</h3>
               <span className="text-sm text-muted-foreground">Next semester</span>
             </div>
             <p className="text-accent text-sm mt-1">Antwerp, Belgium 🇧🇪</p>
