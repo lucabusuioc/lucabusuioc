@@ -161,6 +161,7 @@ export const translations = {
       linkedinHint: "Professional network",
       instagram: "Instagram",
       instagramHint: "Personal",
+      downloadCv: "Download my CV",
       languagesTitle: "Languages",
       skillsTitle: "Skills",
       languages: [
@@ -335,6 +336,7 @@ export const translations = {
       linkedinHint: "Rete professionale",
       instagram: "Instagram",
       instagramHint: "Personale",
+      downloadCv: "Scarica il mio CV",
       languagesTitle: "Lingue",
       skillsTitle: "Competenze",
       languages: [
