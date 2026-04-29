@@ -79,6 +79,33 @@ function ContactPage() {
         </a>
       </section>
 
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+        <a
+          href="https://www.linkedin.com/in/luca-busuioc-884403365"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group border border-border rounded-xl p-7 bg-card hover:border-accent transition-colors"
+        >
+          <p className="text-xs uppercase tracking-wider text-muted-foreground">LinkedIn</p>
+          <p className="mt-2 text-lg text-foreground group-hover:text-accent transition-colors break-all">
+            linkedin.com/in/luca-busuioc-884403365
+          </p>
+          <p className="mt-1 text-sm text-muted-foreground">Professional network</p>
+        </a>
+        <a
+          href="https://www.instagram.com/lucabusuioc"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group border border-border rounded-xl p-7 bg-card hover:border-accent transition-colors"
+        >
+          <p className="text-xs uppercase tracking-wider text-muted-foreground">Instagram</p>
+          <p className="mt-2 text-lg text-foreground group-hover:text-accent transition-colors break-all">
+            @lucabusuioc
+          </p>
+          <p className="mt-1 text-sm text-muted-foreground">Personal</p>
+        </a>
+      </section>
+
       <section className="grid grid-cols-1 md:grid-cols-2 gap-12 border-t border-border pt-12">
         <div>
           <h2 className="text-2xl text-foreground mb-6">Languages</h2>
