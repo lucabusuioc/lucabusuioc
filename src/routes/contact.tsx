@@ -3,13 +3,13 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact, Skills & Languages — Luca Busuioc" },
+      { title: "Contact, Skills & Languages · Luca Busuioc" },
       {
         name: "description",
         content:
-          "Languages, technical skills and how to reach Luca Busuioc — email, phone and location.",
+          "Languages, technical skills and how to reach Luca Busuioc by email, phone and location.",
       },
-      { property: "og:title", content: "Contact — Luca Busuioc" },
+      { property: "og:title", content: "Contact · Luca Busuioc" },
       {
         property: "og:description",
         content: "Skills, languages, and how to get in touch.",
