@@ -33,9 +33,10 @@ function Index() {
             hackathon enthusiast.
           </h1>
           <p className="mt-8 text-lg text-muted-foreground max-w-xl leading-relaxed">
-            Born in 2006, based in Cordenons (Italy), studying at the University of Udine.
-            I love tackling messy problems with small teams — whether that means a 24-hour
-            hackathon pitch, organising live events, or learning a new language abroad.
+            Born in 2006, based in Cordenons (Italy), studying Electronic Engineering at the
+            University of Udine. I love tackling messy problems with small teams — whether
+            that means a 24-hour hackathon pitch, organising live events, contributing to
+            Enactus at my university, or learning a new language abroad.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <Link
