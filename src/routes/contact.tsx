@@ -84,7 +84,7 @@ function ContactPage() {
       <div className="mt-10 flex justify-center">
         <a
           href="/cv.pdf"
-          download
+          download="Luca_Busuioc_CV.pdf"
           className="inline-flex items-center gap-2 rounded-full bg-accent text-accent-foreground px-6 py-3 text-sm font-medium hover:opacity-90 transition-opacity"
         >
           ↓ {c.downloadCv}
