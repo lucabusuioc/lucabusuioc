@@ -52,16 +52,6 @@ function ContactPage() {
           </p>
           <p className="mt-1 text-sm text-muted-foreground">{c.uniEmailHint}</p>
         </a>
-        <a
-          href="tel:+393703274074"
-          className="group border border-border rounded-xl p-7 bg-card hover:border-accent transition-colors md:col-span-2"
-        >
-          <p className="text-xs uppercase tracking-wider text-muted-foreground">{c.phone}</p>
-          <p className="mt-2 text-lg text-foreground group-hover:text-accent transition-colors">
-            +39 370 327 4074
-          </p>
-          <p className="mt-1 text-sm text-muted-foreground">{c.phoneHint}</p>
-        </a>
       </section>
 
       <section className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
