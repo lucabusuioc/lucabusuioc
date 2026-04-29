@@ -49,7 +49,7 @@ const awards = [
     title: "Hackathon Artificial Intelligence Forum 2025",
     org: "DITEDI",
     date: "Oct 2025",
-    desc: "Competitive event focused on innovation and AI — building team solutions and presenting to a jury.",
+    desc: "Competitive event focused on innovation and AI, building team solutions and presenting to a jury.",
     link: "https://www.ia-forum.it/hackathon",
   },
   {
