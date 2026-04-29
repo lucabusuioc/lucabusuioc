@@ -51,17 +51,25 @@ function ContactPage() {
           href="mailto:lucabusuio2006@gmail.com"
           className="group border border-border rounded-xl p-7 bg-card hover:border-accent transition-colors"
         >
-          <p className="text-xs uppercase tracking-wider text-muted-foreground">Email</p>
+          <p className="text-xs uppercase tracking-wider text-muted-foreground">Personal email</p>
           <p className="mt-2 text-lg text-foreground group-hover:text-accent transition-colors break-all">
             lucabusuio2006@gmail.com
           </p>
-          <p className="mt-1 text-sm text-muted-foreground break-all">
+          <p className="mt-1 text-sm text-muted-foreground">Best for general contact</p>
+        </a>
+        <a
+          href="mailto:busuioc.luca@spes.uniud.it"
+          className="group border border-border rounded-xl p-7 bg-card hover:border-accent transition-colors"
+        >
+          <p className="text-xs uppercase tracking-wider text-muted-foreground">University email</p>
+          <p className="mt-2 text-lg text-foreground group-hover:text-accent transition-colors break-all">
             busuioc.luca@spes.uniud.it
           </p>
+          <p className="mt-1 text-sm text-muted-foreground">University of Udine</p>
         </a>
         <a
           href="tel:+393703274074"
-          className="group border border-border rounded-xl p-7 bg-card hover:border-accent transition-colors"
+          className="group border border-border rounded-xl p-7 bg-card hover:border-accent transition-colors md:col-span-2"
         >
           <p className="text-xs uppercase tracking-wider text-muted-foreground">Phone</p>
           <p className="mt-2 text-lg text-foreground group-hover:text-accent transition-colors">
