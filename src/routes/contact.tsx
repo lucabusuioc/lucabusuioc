@@ -87,8 +87,8 @@ function ContactPage() {
           className="group border border-border rounded-xl p-7 bg-card hover:border-accent transition-colors"
         >
           <p className="text-xs uppercase tracking-wider text-muted-foreground">LinkedIn</p>
-          <p className="mt-2 text-lg text-foreground group-hover:text-accent transition-colors break-all">
-            linkedin.com/in/luca-busuioc-884403365
+          <p className="mt-2 text-lg text-foreground group-hover:text-accent transition-colors">
+            Luca Busuioc
           </p>
           <p className="mt-1 text-sm text-muted-foreground">Professional network</p>
         </a>
