@@ -77,7 +77,7 @@ function AwardsPage() {
         <p className="text-sm uppercase tracking-[0.2em] text-accent mb-4">Awards</p>
         <h1 className="text-4xl sm:text-5xl text-foreground">Hackathons & Recognitions</h1>
         <p className="mt-4 text-muted-foreground">
-          Six podium finishes across hackathons, business pitches and academic competitions —
+          Six podium finishes across hackathons, business pitches and academic competitions:
           a snapshot of the kind of fast, collaborative work I love.
         </p>
       </header>
