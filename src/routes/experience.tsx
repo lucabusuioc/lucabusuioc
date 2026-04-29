@@ -3,13 +3,13 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/experience")({
   head: () => ({
     meta: [
-      { title: "Experience & Education — Luca Busuioc" },
+      { title: "Experience & Education · Luca Busuioc" },
       {
         name: "description",
         content:
           "Work at Pordenonelegge, TEDxPordenone and Centro Estate Viva, plus University of Udine and an upcoming Erasmus at the University of Antwerp.",
       },
-      { property: "og:title", content: "Experience & Education — Luca Busuioc" },
+      { property: "og:title", content: "Experience & Education · Luca Busuioc" },
       {
         property: "og:description",
         content:
