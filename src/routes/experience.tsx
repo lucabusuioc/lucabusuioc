@@ -22,6 +22,19 @@ export const Route = createFileRoute("/experience")({
 
 const work = [
   {
+const work = [
+  {
+    company: "Enactus — University of Udine",
+    role: "Member",
+    period: "2025 — Present",
+    location: "Udine, Italy",
+    bullets: [
+      "Taking part in Enactus, a student network using entrepreneurial action to drive social and environmental impact",
+      "Collaborating with fellow students on project ideation and execution",
+      "Developing teamwork, leadership and problem-solving skills in a real-world context",
+    ],
+  },
+  {
     company: "TEDxPordenone",
     role: "Team Member",
     period: "Apr 2025 — Present",
