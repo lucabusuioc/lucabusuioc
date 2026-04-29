@@ -4,7 +4,7 @@ import luca from "@/assets/luca.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Luca Busuioc — Student & Hackathon Enthusiast" },
+      { title: "Luca Busuioc · Student & Hackathon Enthusiast" },
       {
         name: "description",
         content:
