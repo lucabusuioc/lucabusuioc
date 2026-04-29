@@ -75,7 +75,7 @@ function ExperiencePage() {
         <h1 className="text-4xl sm:text-5xl text-foreground">Work & Education</h1>
         <p className="mt-4 text-muted-foreground max-w-2xl">
           A timeline of the places I've worked, the events I've helped run, and where I'm
-          studying — including my next step abroad.
+          studying, including my next step abroad.
         </p>
       </header>
 
