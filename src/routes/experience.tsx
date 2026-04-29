@@ -107,14 +107,14 @@ function ExperiencePage() {
         <div className="space-y-8">
           <article className="border border-border rounded-xl p-8 bg-card">
             <div className="flex flex-wrap items-baseline justify-between gap-2">
-              <h3 className="text-xl text-foreground">University of Udine</h3>
+              <h3 className="text-xl text-foreground">University of Udine — Electronic Engineering</h3>
               <span className="text-sm text-muted-foreground">Current</span>
             </div>
             <p className="text-accent text-sm mt-1">Udine, Italy</p>
             <p className="mt-4 text-muted-foreground leading-relaxed">
-              Currently enrolled at the University of Udine, where I'm building a foundation
-              in technical and analytical subjects while staying active in extracurricular
-              competitions and innovation events.
+              Currently studying Electronic Engineering at the University of Udine, building
+              a foundation in maths, physics, electronics and programming while staying
+              active in Enactus, hackathons and innovation events.
             </p>
           </article>
 
