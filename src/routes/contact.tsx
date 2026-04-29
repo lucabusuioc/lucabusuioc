@@ -3,13 +3,13 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact, Skills & Languages — Luca Busuioc" },
+      { title: "Contact, Skills & Languages · Luca Busuioc" },
       {
         name: "description",
         content:
-          "Languages, technical skills and how to reach Luca Busuioc — email, phone and location.",
+          "Languages, technical skills and how to reach Luca Busuioc by email, phone and location.",
       },
-      { property: "og:title", content: "Contact — Luca Busuioc" },
+      { property: "og:title", content: "Contact · Luca Busuioc" },
       {
         property: "og:description",
         content: "Skills, languages, and how to get in touch.",
@@ -22,7 +22,7 @@ export const Route = createFileRoute("/contact")({
 const languages = [
   { name: "Italian", level: "Native" },
   { name: "Romanian", level: "Native" },
-  { name: "English", level: "B2 — Listening, Reading, Writing & Speaking" },
+  { name: "English", level: "B2 in Listening, Reading, Writing & Speaking" },
 ];
 
 const skills = [
@@ -42,7 +42,7 @@ function ContactPage() {
         <h1 className="text-4xl sm:text-5xl text-foreground">Let's get in touch</h1>
         <p className="mt-4 text-muted-foreground">
           The fastest way to reach me is by email. I'm open to internships, hackathon teams,
-          and event collaborations — especially during my Erasmus in Antwerp.
+          and event collaborations, especially during my Erasmus in Antwerp.
         </p>
       </header>
 

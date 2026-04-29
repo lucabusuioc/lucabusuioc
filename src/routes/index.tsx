@@ -4,7 +4,7 @@ import luca from "@/assets/luca.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Luca Busuioc — Student & Hackathon Enthusiast" },
+      { title: "Luca Busuioc · Student & Hackathon Enthusiast" },
       {
         name: "description",
         content:
@@ -34,7 +34,7 @@ function Index() {
           </h1>
           <p className="mt-8 text-lg text-muted-foreground max-w-xl leading-relaxed">
             Born in 2006, based in Cordenons (Italy), studying Electronic Engineering at the
-            University of Udine. I love tackling messy problems with small teams — whether
+            University of Udine. I love tackling messy problems with small teams, whether
             that means a 24-hour hackathon pitch, organising live events, contributing to
             Enactus at my university, or learning a new language abroad.
           </p>
@@ -81,7 +81,7 @@ function Index() {
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-10 text-muted-foreground leading-relaxed">
           <p>
             I grew up bilingual (Italian and Romanian) and picked up English along the way.
-            That mix shaped how I think — I'm comfortable jumping between contexts, teams
+            That mix shaped how I think: I'm comfortable jumping between contexts, teams
             and points of view, which has been useful in every hackathon I've joined.
           </p>
           <p>

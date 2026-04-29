@@ -3,13 +3,13 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/experience")({
   head: () => ({
     meta: [
-      { title: "Experience & Education — Luca Busuioc" },
+      { title: "Experience & Education · Luca Busuioc" },
       {
         name: "description",
         content:
           "Work at Pordenonelegge, TEDxPordenone and Centro Estate Viva, plus University of Udine and an upcoming Erasmus at the University of Antwerp.",
       },
-      { property: "og:title", content: "Experience & Education — Luca Busuioc" },
+      { property: "og:title", content: "Experience & Education · Luca Busuioc" },
       {
         property: "og:description",
         content:
@@ -22,9 +22,9 @@ export const Route = createFileRoute("/experience")({
 
 const work = [
   {
-    company: "Enactus — University of Udine",
+    company: "Enactus at the University of Udine",
     role: "Member",
-    period: "2025 — Present",
+    period: "2025 to Present",
     location: "Udine, Italy",
     bullets: [
       "Taking part in Enactus, a student network using entrepreneurial action to drive social and environmental impact",
@@ -35,7 +35,7 @@ const work = [
   {
     company: "TEDxPordenone",
     role: "Team Member",
-    period: "Apr 2025 — Present",
+    period: "Apr 2025 to Present",
     location: "Pordenone, Italy",
     bullets: [
       "Supervise pre-event and on-site activities",
@@ -46,7 +46,7 @@ const work = [
   {
     company: "Pordenonelegge",
     role: "Venue Supervisor",
-    period: "Sep 2023 — Sep 2025",
+    period: "Sep 2023 to Sep 2025",
     location: "Pordenone, Italy",
     bullets: [
       "Welcomed and assisted attendees during festival events",
@@ -57,7 +57,7 @@ const work = [
   {
     company: "Centro Estate Viva",
     role: "Outdoor Activities Animator",
-    period: "Jun — Jul 2022",
+    period: "Jun to Jul 2022",
     location: "Cordenons, Italy",
     bullets: [
       "Maintenance and setup work",
@@ -75,7 +75,7 @@ function ExperiencePage() {
         <h1 className="text-4xl sm:text-5xl text-foreground">Work & Education</h1>
         <p className="mt-4 text-muted-foreground max-w-2xl">
           A timeline of the places I've worked, the events I've helped run, and where I'm
-          studying — including my next step abroad.
+          studying, including my next step abroad.
         </p>
       </header>
 
@@ -107,7 +107,7 @@ function ExperiencePage() {
         <div className="space-y-8">
           <article className="border border-border rounded-xl p-8 bg-card">
             <div className="flex flex-wrap items-baseline justify-between gap-2">
-              <h3 className="text-xl text-foreground">University of Udine — Electronic Engineering</h3>
+              <h3 className="text-xl text-foreground">University of Udine, Electronic Engineering</h3>
               <span className="text-sm text-muted-foreground">Current</span>
             </div>
             <p className="text-accent text-sm mt-1">Udine, Italy</p>
@@ -123,7 +123,7 @@ function ExperiencePage() {
               Upcoming
             </span>
             <div className="flex flex-wrap items-baseline justify-between gap-2">
-              <h3 className="text-xl text-foreground">University of Antwerp — Erasmus Exchange</h3>
+              <h3 className="text-xl text-foreground">University of Antwerp, Erasmus Exchange</h3>
               <span className="text-sm text-muted-foreground">Next semester</span>
             </div>
             <p className="text-accent text-sm mt-1">Antwerp, Belgium 🇧🇪</p>

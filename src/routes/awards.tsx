@@ -3,13 +3,13 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/awards")({
   head: () => ({
     meta: [
-      { title: "Awards & Hackathons — Luca Busuioc" },
+      { title: "Awards & Hackathons · Luca Busuioc" },
       {
         name: "description",
         content:
           "Hackathon and competition results: AI Forum, Christmas Hackathon, Talentweek #GenNext, Italian Chemistry Games, RaccontaEstero.",
       },
-      { property: "og:title", content: "Awards & Hackathons — Luca Busuioc" },
+      { property: "og:title", content: "Awards & Hackathons · Luca Busuioc" },
       {
         property: "og:description",
         content: "Six podium finishes across hackathons, business pitches and academic competitions.",
@@ -31,9 +31,9 @@ const awards = [
   {
     place: "2nd",
     title: "RaccontaEstero 2025",
-    org: "IRSE — Istituto Regionale di Studi Europei",
+    org: "IRSE, Istituto Regionale di Studi Europei",
     date: "Apr 2026",
-    desc: "Regional Friuli Venezia Giulia competition on international experiences and themes — recognised for analysis, communication and intercultural reflection.",
+    desc: "Regional Friuli Venezia Giulia competition on international experiences and themes, recognised for analysis, communication and intercultural reflection.",
     link: "https://centroculturapordenone.it/irse/concorsi/Concorso_RaccontaEstero/raccontaestero-2025",
   },
   {
@@ -49,23 +49,23 @@ const awards = [
     title: "Hackathon Artificial Intelligence Forum 2025",
     org: "DITEDI",
     date: "Oct 2025",
-    desc: "Competitive event focused on innovation and AI — building team solutions and presenting to a jury.",
+    desc: "Competitive event focused on innovation and AI, building team solutions and presenting to a jury.",
     link: "https://www.ia-forum.it/hackathon",
   },
   {
     place: "2nd",
-    title: "Italian Chemistry Games — Team",
+    title: "Italian Chemistry Games (Team)",
     org: "Società Chimica Italiana",
     date: "May 2024",
-    desc: "National chemistry competition based on problem solving and teamwork — recognised for analytical skills, problem solving and collaboration.",
+    desc: "National chemistry competition based on problem solving and teamwork, recognised for analytical skills, problem solving and collaboration.",
     link: "https://www.societachimica.it/it/giochi_della_chimica/2023-24/home",
   },
   {
     place: "2nd",
     title: "RaccontaEstero 2023",
-    org: "IRSE — Istituto Regionale di Studi Europei",
+    org: "IRSE, Istituto Regionale di Studi Europei",
     date: "Apr 2024",
-    desc: "Regional Friuli Venezia Giulia competition on international experiences — recognised for analysis, communication and intercultural reflection.",
+    desc: "Regional Friuli Venezia Giulia competition on international experiences, recognised for analysis, communication and intercultural reflection.",
     link: "https://centroculturapordenone.it/irse/concorsi/Concorso_RaccontaEstero/RaccontaEstero/la-premiazione",
   },
 ];
@@ -77,7 +77,7 @@ function AwardsPage() {
         <p className="text-sm uppercase tracking-[0.2em] text-accent mb-4">Awards</p>
         <h1 className="text-4xl sm:text-5xl text-foreground">Hackathons & Recognitions</h1>
         <p className="mt-4 text-muted-foreground">
-          Six podium finishes across hackathons, business pitches and academic competitions —
+          Six podium finishes across hackathons, business pitches and academic competitions:
           a snapshot of the kind of fast, collaborative work I love.
         </p>
       </header>
