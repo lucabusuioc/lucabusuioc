@@ -54,10 +54,10 @@ const awards = [
   },
   {
     place: "2nd",
-    title: "Italian Chemistry Games — Team",
+    title: "Italian Chemistry Games (Team)",
     org: "Società Chimica Italiana",
     date: "May 2024",
-    desc: "National chemistry competition based on problem solving and teamwork — recognised for analytical skills, problem solving and collaboration.",
+    desc: "National chemistry competition based on problem solving and teamwork, recognised for analytical skills, problem solving and collaboration.",
     link: "https://www.societachimica.it/it/giochi_della_chimica/2023-24/home",
   },
   {
