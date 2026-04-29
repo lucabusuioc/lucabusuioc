@@ -184,7 +184,7 @@ export const translations = {
     index: {
       kicker: "Portfolio · 2026",
       hi: "Ciao, sono Luca.",
-      tagline1: "Studente, problem solver,",
+      tagline1: "Curioso, creativo,",
       tagline2: "appassionato di hackathon.",
       intro:
         "Studio Ingegneria Elettronica all'Università di Udine. Mi piace affrontare problemi complessi in piccoli team, che si tratti di un pitch da hackathon di 24 ore, dell'organizzazione di eventi dal vivo, della partecipazione a Enactus in università o dell'apprendimento di una nuova lingua all'estero.",
