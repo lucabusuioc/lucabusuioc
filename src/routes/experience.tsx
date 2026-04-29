@@ -22,9 +22,9 @@ export const Route = createFileRoute("/experience")({
 
 const work = [
   {
-    company: "Enactus — University of Udine",
+    company: "Enactus at the University of Udine",
     role: "Member",
-    period: "2025 — Present",
+    period: "2025 to Present",
     location: "Udine, Italy",
     bullets: [
       "Taking part in Enactus, a student network using entrepreneurial action to drive social and environmental impact",
