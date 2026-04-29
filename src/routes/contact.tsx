@@ -81,6 +81,16 @@ function ContactPage() {
         </a>
       </section>
 
+      <div className="mt-10 flex justify-center">
+        <a
+          href="/cv.pdf"
+          download
+          className="inline-flex items-center gap-2 rounded-full bg-accent text-accent-foreground px-6 py-3 text-sm font-medium hover:opacity-90 transition-opacity"
+        >
+          ↓ {c.downloadCv}
+        </a>
+      </div>
+
       <section className="grid grid-cols-1 md:grid-cols-2 gap-12 border-t border-border pt-12 mt-16">
         <div>
           <h2 className="text-2xl text-foreground mb-6">{c.languagesTitle}</h2>
