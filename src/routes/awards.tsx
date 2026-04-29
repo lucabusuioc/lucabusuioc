@@ -3,13 +3,13 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/awards")({
   head: () => ({
     meta: [
-      { title: "Awards & Hackathons — Luca Busuioc" },
+      { title: "Awards & Hackathons · Luca Busuioc" },
       {
         name: "description",
         content:
           "Hackathon and competition results: AI Forum, Christmas Hackathon, Talentweek #GenNext, Italian Chemistry Games, RaccontaEstero.",
       },
-      { property: "og:title", content: "Awards & Hackathons — Luca Busuioc" },
+      { property: "og:title", content: "Awards & Hackathons · Luca Busuioc" },
       {
         property: "og:description",
         content: "Six podium finishes across hackathons, business pitches and academic competitions.",
