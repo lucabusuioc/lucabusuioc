@@ -63,9 +63,9 @@ const awards = [
   {
     place: "2nd",
     title: "RaccontaEstero 2023",
-    org: "IRSE — Istituto Regionale di Studi Europei",
+    org: "IRSE, Istituto Regionale di Studi Europei",
     date: "Apr 2024",
-    desc: "Regional Friuli Venezia Giulia competition on international experiences — recognised for analysis, communication and intercultural reflection.",
+    desc: "Regional Friuli Venezia Giulia competition on international experiences, recognised for analysis, communication and intercultural reflection.",
     link: "https://centroculturapordenone.it/irse/concorsi/Concorso_RaccontaEstero/RaccontaEstero/la-premiazione",
   },
 ];
