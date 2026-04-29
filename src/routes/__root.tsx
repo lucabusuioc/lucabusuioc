@@ -33,7 +33,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "Personal website of Luca Busuioc — student, multi-award hackathon competitor, soon on Erasmus exchange in Antwerp, Belgium.",
+          "Personal website of Luca Busuioc, student and multi-award hackathon competitor, soon on Erasmus exchange in Antwerp, Belgium.",
       },
       { name: "author", content: "Luca Busuioc" },
       { property: "og:title", content: "Luca Busuioc" },
