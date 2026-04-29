@@ -22,7 +22,7 @@ export const Route = createFileRoute("/contact")({
 const languages = [
   { name: "Italian", level: "Native" },
   { name: "Romanian", level: "Native" },
-  { name: "English", level: "B2 — Listening, Reading, Writing & Speaking" },
+  { name: "English", level: "B2 in Listening, Reading, Writing & Speaking" },
 ];
 
 const skills = [
