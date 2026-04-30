@@ -21,7 +21,7 @@ export const Route = createFileRoute("/contact")({
 });
 
 function ContactPage() {
-  const { t } = useI18n();
+  const { t, lang } = useI18n();
   const c = t.contact;
   return (
     <div className="mx-auto max-w-4xl px-6 pt-16 sm:pt-20 pb-12">
