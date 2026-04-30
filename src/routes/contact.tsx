@@ -21,7 +21,7 @@ export const Route = createFileRoute("/contact")({
 });
 
 function ContactPage() {
-  const { t } = useI18n();
+  const { t, lang } = useI18n();
   const c = t.contact;
   return (
     <div className="mx-auto max-w-4xl px-6 pt-16 sm:pt-20 pb-12">
@@ -83,8 +83,8 @@ function ContactPage() {
 
       <div className="mt-10 flex justify-center">
         <a
-          href="/cv.pdf"
-          download="Luca_Busuioc_CV.pdf"
+          href={lang === "en" ? "/cv-en.pdf" : "/cv.pdf"}
+          download={lang === "en" ? "Luca_Busuioc_CV_EN.pdf" : "Luca_Busuioc_CV.pdf"}
           className="inline-flex items-center gap-2 rounded-full bg-accent text-accent-foreground px-6 py-3 text-sm font-medium hover:opacity-90 transition-opacity"
         >
           {c.downloadCv}
