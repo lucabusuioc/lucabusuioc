@@ -1,0 +1,9 @@
+[15:10, 01/05/2026] sbusuioc: found” support guide for troubleshooting tips.
+[15:32, 01/05/2026] +39 349 237 3044: [build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
